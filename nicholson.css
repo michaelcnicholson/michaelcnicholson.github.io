@@ -1,0 +1,47 @@
+@charset "utf-8";
+h1 {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-size: large;
+}
+body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+background-color: #CAD0EF;
+}
+
+.img_float_right {
+    margin: 10px;
+    border: thin solid #312E2E;
+    float: none;
+}
+.img_float {
+	float: left;
+	border: thin solid #973A28;
+margin: 10px;
+	background-color: #3CB1AA;
+
+}
+
+
+@media screen and (max-width:480px){
+.img_float {
+	max-width: 480px;
+	float: left;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width:768px){
+.img_float {
+    max-width: 768px;
+    float: left;
+}
+
+}
